@@ -1,0 +1,13 @@
+node_modules
+config.json
+.prettierrc.json
+/node_modules
+/config.json
+/data
+/data/guildGexp.json
+/data/guildLinks.json
+/data/guildLinkUsernames.json
+/data/guildMembers.json
+/data/guildRanks.json
+sbConfig.json
+/sbConfig.json
