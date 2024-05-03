@@ -179,7 +179,7 @@ module.exports = {
             const bridgeChannel = discordClient.channels.cache.get(config.channels.guildIngameChat);
             if (bridgeChannel) {
                 await bridgeChannel.send({
-                    files: [new MessageAttachment(generateMessageImage(formattedMessage), 'guildEvent.png', {description: msgString})],
+                    files: [new MessageAttachment(generateMessageImage(formattedMessage), 'guildEvent.png')],
                 });
             }
         }
